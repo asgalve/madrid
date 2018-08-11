@@ -29,14 +29,14 @@ category
 It can use all of them, just a few of them, or none of them.
 
 Examples:
-getMOstSuitableByLocation.php?location=indoors&district=Retiro&category=cultural
-getMOstSuitableByLocation.php?location=indoors&category=cultural
-getMOstSuitableByLocation.php?location=indoors&district=Retiro
-getMOstSuitableByLocation.php?district=Retiro&category=cultural
-getMOstSuitableByLocation.php?location=indoors
-getMOstSuitableByLocation.php?category=cultural
-getMOstSuitableByLocation.php?district=Retiro
-getMOstSuitableByLocation.php
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?location=indoors&district=Retiro&category=cultural
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?location=indoors&category=cultural
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?location=indoors&district=Retiro
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?district=Retiro&category=cultural
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?location=indoors
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?category=cultural
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php?district=Retiro
+www.yourdomain.com/yourfolder/getMOstSuitableByLocation.php
 
 In case no variables are sent as arguments in the PHP call the script will return everything inside the JSON file.
 
@@ -54,6 +54,6 @@ category
 
 Examples:
 
-getMOstSuitableByTime.php?time=10:30-16:00&day=mo&category=shopping
-getMOstSuitableByTime.php?time=13:30-16:00&day=tu&category=cultural
-getMOstSuitableByTime.php?time=13:30-16:00&day=we&category=shopping
+www.yourdomain.com/yourfolder/getMOstSuitableByTime.php?time=10:30-16:00&day=mo&category=shopping
+www.yourdomain.com/yourfolder/getMOstSuitableByTime.php?time=13:30-16:00&day=tu&category=cultural
+www.yourdomain.com/yourfolder/getMOstSuitableByTime.php?time=13:30-16:00&day=we&category=shopping
