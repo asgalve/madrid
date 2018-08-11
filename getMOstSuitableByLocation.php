@@ -1,5 +1,9 @@
 <?php
+
+	// Setting JSON file path
     $json_path = "./JSON/madrid.json";
+
+    //Making sure JSON file exists.
     if (!file_exists($json_path)) {
         echo "The file $json_path does not exist";
         exit;
@@ -8,7 +12,8 @@
     // Reading JSON file
     $data = file_get_contents ($json_path);
     $json = json_decode($data, true);
-	
+
+    //Calling method to get data from JSON file
     $geojson_elements = getAvtiviyLocationDistrict($json);
 
 	header('Content-type: application/json');
@@ -23,6 +28,7 @@
 	/*																										*/
 
 	function getAvtiviyLocationDistrict($json){
+		//It creates the array of JSON elements turned into geoJSON objects
 		$geojson_elements = array(
 		   'type'      => 'FeatureCollection',
 		   'features'  => array()
